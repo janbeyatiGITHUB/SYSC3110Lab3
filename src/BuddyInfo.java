@@ -8,6 +8,11 @@ public class BuddyInfo {
         this.phonenumber = phonenumber;
     }
 
+    public int testforlab3githubbranch() {
+        return 0;
+
+    }
+
     public String getName() {
         return ("Name: " + this.name + ", Address: " + this.address + ", Phone Number: " + this.phonenumber);
     }
