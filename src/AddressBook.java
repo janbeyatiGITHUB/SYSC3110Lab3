@@ -1,9 +1,8 @@
-import java.util.List;
 import java.util.ArrayList;
 
 public class AddressBook {
 
-    private List<BuddyInfo> buddies;
+    private final ArrayList<BuddyInfo> buddies;
 
     public AddressBook() {
         buddies = new ArrayList<>(); // initialize the list
